@@ -1,8 +1,3 @@
-# Jarvis.py-source-code
-#this is the source code of Jarvis AI.
-#########################################
-
-
 import pyttsx3 #pip install pyttsx3
 import speech_recognition as sr #pip install speechRecognition
 import datetime
@@ -112,8 +107,3 @@ if __name__ == "__main__":
             except Exception as e:
                 print(e)
                 speak("Sorry my friend harry bhai. I am not able to send this email")
-                
-            
- #All modules need to be installed with commands.
- ->pip install speechRecognizer
- ->pip install wikipedia
